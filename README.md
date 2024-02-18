@@ -31,3 +31,6 @@ All parsing logs are written to the user temp path (%temp%) and are under the di
 
 See the SaviLogSettings.json file for regex patterns and note patterns
 
+## Sample call
+
+.\SaviLog.exe --MaxLogSize 1000000 --Output "C:\temp\LogAnalysis" --Path "[C:\temp\SasLogs; X:\repos\SasSamples\Logs\QuickTestLogs]" --ParseWarnings --Work "C:\temp\ExportSasDataset"
